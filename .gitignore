@@ -1,0 +1,68 @@
+# Fichiers générés par le compilateur
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Fichiers de dépendances générés par le compilateur
+*.d
+
+# Fichiers exécutables et binaires
+/bin/
+/obj/
+/build/
+
+# Fichiers spécifiques à CMake (si tu utilises CMake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Fichiers spécifiques à Visual Studio (si tu utilises VS)
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+*.aps
+*.pdb
+*.idb
+*.ilk
+
+# Fichiers spécifiques à CLion (si tu utilises CLion)
+.idea/
+*.iml
+
+# Fichiers spécifiques à VSCode (si tu utilises VSCode)
+.vscode/
+*.code-workspace
+
+# Fichiers de sauvegarde et temporaires
+*~
+*.bak
+*.swp
+*.tmp
+
+# Fichiers de logs
+*.log
+
+# Fichiers de documentation générés
+/docs/
+/html/
+/latex/
+
+# Fichiers de données temporaires ou générés
+/data/temp/
+/data/output/
+
+# Fichiers spécifiques au projet (ajuste selon tes besoins)
+/letters.txt
+/scores.txt
+/dictionary.txt
+
+# Ignorer les fichiers de configuration locaux
+/config.local
+.env
